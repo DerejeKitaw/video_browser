@@ -6,4 +6,6 @@ Simple video browser built on React using the Youtube API
 3. Open the command line of your choice and cd to the root directory of this repo on your machine  
 4. `npm install` - Installs packages
 5. `npm install -g gulp` - Installs gulp globally. [Why globally?](http://stackoverflow.com/questions/22115400/why-do-we-need-to-install-gulp-globally-and-locally)
-5. `npm start` - Navigate to [http://localhost:8080/webpack-dev-server/](http://localhost:8080/webpack-dev-server/). 
+6. You will need to signup to [Google Developers Console](http://console.developers.google.com/) to get an API key.
+7. Put your new key in src/key.js and export it. (ex: export default 'xxxxxxxxxxx') 
+8. `npm start` - Navigate to [http://localhost:8080/webpack-dev-server/](http://localhost:8080/webpack-dev-server/). 
